@@ -37,6 +37,12 @@
     background-color: #fff;
     line-height: 40px;
     box-shadow: 0 5px 10px rgba(255,26,255,0.22);
+   
+}
+
+.imgdiv{
+    
+    padding:20px 0;
 }
 
 .song-img{
@@ -46,7 +52,48 @@
     border-left: 8px solid #5af;
     border-right: 8px solid #5af ;
     box-shadow: 0 10px 60px rgba(26,26,255,0.2);
+    animation: rotimg 2s linear infinite;
+    
 }
+
+@keyframes rotimg{
+    0%{
+        border-left: 13px solid #5af;
+        border-right: 13px solid #5af ;
+        border-top: 8px solid #fff;
+        border-bottom: 8px solid #fff ;
+    }
+
+    25%{
+        border-left: 8px solid #fff;
+        border-right: 8px solid #fff ;
+        border-top: 8px solid #5af;
+        border-bottom: 8px solid #5af ;
+    }
+
+    50%{
+        border-left: 13px solid #5af;
+        border-right: 13px solid #5af ;
+        border-top: 8px solid #fff;
+        border-bottom: 8px solid #fff ;
+    }
+
+    75%{
+        border-left: 8px solid #fff;
+    border-right: 8px solid #fff ;
+    border-top: 8px solid #5af;
+    border-bottom: 8px solid #5af;
+    }
+
+    100%{
+        border-left: 8px solid #5af;
+    border-right: 8px solid #5af ;
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff ;
+    }
+}
+
+
 
 .music-player h1{
     font-size: 20px;
