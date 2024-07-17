@@ -20,6 +20,7 @@
     background-color:#e0e5ff;
     padding:25px 35px;
     text-align:center;
+    height:100%;
 }
 
 .nav{
@@ -31,11 +32,11 @@
 .nav .nav-icon{
     width:40px;
     height: 40px;
-    border-radius:50%;
+    border-radius:10%;
     color: #5af;
     background-color: #fff;
     line-height: 40px;
-    box-shadow: 0 5px 10px rgba(255,26,26,0.22);
+    box-shadow: 0 5px 10px rgba(255,26,255,0.22);
 }
 
 .song-img{
